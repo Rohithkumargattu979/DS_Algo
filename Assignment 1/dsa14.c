@@ -43,7 +43,7 @@ int main()
              maxgoods++;
         }
 
-        printf("%d", maxgoods);
+        printf("%d\n", maxgoods);
 
 
 }
