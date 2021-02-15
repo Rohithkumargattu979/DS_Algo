@@ -38,5 +38,6 @@ int main()
    char array[max];
    scanf("%s",array);
    printoutput(array,b,0);
+   printf("\n");
  
 }
