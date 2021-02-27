@@ -26,7 +26,6 @@ scanf("%s", s1);
 //printf("Enter Number2:");
 scanf("%s", s2);
 
-/* convert character to integer*/
 
 for (l1 = 0; s1[l1] != '\0'; l1++)
 num1[l1] = s1[l1] - '0';
