@@ -61,6 +61,6 @@ int main(){
     vector<int> weights, values;
     rea(weights,n);
     rea(values,n);
-   vector<vector<int>> dp(n+1, vector<int> (capacity,-1)); // dp  table with sizes n+1 and capacity + 1 initialized to -1 
+    vector<vector<int>> dp(n+1, vector<int> (capacity,-1)); // dp  table with sizes n+1 and capacity + 1 initialized to -1 
     int maxx = helper(weights, values, capacity, n, dp);
 }
